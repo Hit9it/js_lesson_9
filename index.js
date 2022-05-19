@@ -64,5 +64,5 @@ for (const element of coursesAndDurationArray2){
     htmlHeadingElement.innerText = element.title;
     let htmlParagraphElement = document.createElement('p');
     htmlParagraphElement.className = 'description';
-    htmlHeadingElementhtmlParagraphElement.innerText = element.monthDuration;
+    htmlParagraphElement.innerText = element.monthDuration;
 }
